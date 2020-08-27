@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Desktop/Javascript/JavaScript30-master/02 - JS and CSS Clock"
+		},
+		{
+			"path": "../../../../Desktop/Javascript/JavaScript30-master/03 - CSS Variables"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "github.com"
+	}
+}
