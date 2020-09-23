@@ -9,7 +9,7 @@ html {
   
 body {
     
-    background-color: darkgray;
+    background-color: floralwhite;
     text-align: center;
     font-family: 'Amatic SC', cursive;
   }
@@ -17,25 +17,41 @@ body {
 .outcome {
     font-size: 2.5em;
     margin-top: 50px;
-    animation: thing 30s;
+    animation: thing 5s;
 }
 
 
 button {
-    font-family : inherit;
-    font-size: 4em;
-    font-weight: 100;
-    margin-top: 10%;
-    text-align: center;
-    background-color: lightgray
+  font-family : inherit;
+  font-size: 4em;
+  font-weight: 500;
+  margin-top: 10%;
+  text-align: center;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+}
+
+button:hover {background-color: lightgoldenrodyellow}
+
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @keyframes thing{
     0%{transform: rotate(0deg)}
-    3%{transform: rotate(-1deg)}
-    4%{transform: rotate(1deg)}
-    5%{transform: rotate(0deg)}
-    15%{transform: rotate(-1deg)}
+    10%{transform: rotate(-1deg)}
+    20%{transform: rotate(1deg)}
+    30{transform: rotate(0deg)}
+    40%{transform: rotate(-2deg)}
     50%{transform: rotate(1deg)}
     100%{transform: rotate(0deg)}
 
