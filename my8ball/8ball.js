@@ -1,11 +1,13 @@
-function userName(name) {
-    if (name === undefined) {
-      console.log('Ask me your question')
-    } else {
-      let userQuestion = "Hello, " + name + ". " + "Please, ask me your question"
-      console.log(userQuestion)
-    }
-}
+
+
+// function userName(name) {
+//     if (name === undefined) {
+//       console.log('Ask me your question')
+//     } else {
+//       let userQuestion = "Hello, " + name + ". " + "Please, ask me your question"
+//       console.log(userQuestion)
+//     }
+// }
 
 let eightBall = []
 
@@ -35,5 +37,8 @@ function eightBallAnswer(num) {
 
 userName('Luke')
 
+function fadeAway() {
+    return 
+}
 
-
+// ok
